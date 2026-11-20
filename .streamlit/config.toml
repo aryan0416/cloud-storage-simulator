@@ -1,0 +1,35 @@
+# Streamlit theme for the Cloud Storage Simulator.
+# Colours match the CSS variables defined in assets/styles.css.
+
+[theme]
+base = "light"
+primaryColor = "#0F62FE"
+backgroundColor = "#F5F7FA"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1B2333"
+font = "sans serif"
+borderColor = "#E1E6EF"
+baseRadius = "8px"
+buttonRadius = "6px"
+showWidgetBorder = true
+dataframeHeaderBackgroundColor = "#F5F7FA"
+redColor = "#DA1E28"
+greenColor = "#198038"
+yellowColor = "#B28600"
+blueColor = "#0F62FE"
+
+# Dark navy sidebar
+[theme.sidebar]
+backgroundColor = "#0B1F3A"
+secondaryBackgroundColor = "#132B4F"
+textColor = "#FFFFFF"
+borderColor = "#2A4166"
+
+[client]
+toolbarMode = "minimal"          # hides the Deploy button and developer menu items
+
+[server]
+maxUploadSize = 1024             # MB - matches the 1 GB storage quota
+
+[browser]
+gatherUsageStats = false
